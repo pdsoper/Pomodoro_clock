@@ -7,12 +7,12 @@ $(document).ready(function() {
 
     var timerType = "Session";
     var running = false;
-    var breakTime = 1;
-    var sessionTime = 1;
+    var breakTime = 5;
+    var sessionTime = 25;
     var duration = 0;
     var remaining = 0;
 
-    var fillStart = 387;
+    var fillStart = 380;
     var fillEnd = 75;
     var newTop = 0;
     var oldTop = 0;
@@ -61,6 +61,7 @@ $(document).ready(function() {
         } else {
             running = true;
             pxPerSec = (fillEnd - fillStart) / duration;
+            $( '.timer' ) .html('').html(timeStr(remaining));
             nInterval = setInterval(countdown, 1000);
         }
     });
@@ -108,7 +109,5 @@ $(document).ready(function() {
             return min + ':' + sec;
         }
     }
-
-
 
 });
