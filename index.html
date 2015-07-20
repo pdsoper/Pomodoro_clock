@@ -19,54 +19,58 @@
 
 	<body>
 
-		<div class="title-div">
-			<h1>FreeCodeCamp</h1>
-		</div>
+		<div class="container">
 
-		<div class="settings-div">
-			<div class="control-div">
-				<p>BREAK LENGTH</p>
-				<div class="control plusminus" id="break-minus">
-					-
+			<div class="title-div">
+				<h1>FreeCodeCamp</h1>
+			</div>
+
+			<div class="settings-div">
+				<div class="control-div">
+					<p>BREAK LENGTH</p>
+					<div class="control plusminus" id="break-minus">
+						-
+					</div>
+					<div class="control set-control" id="break-value">
+						5
+					</div>
+					<div class="control plusminus" id="break-plus">
+						+
+					</div>
 				</div>
-				<div class="control set-control" id="break-value">
-					5
-				</div>
-				<div class="control plusminus" id="break-plus">
-					+
+				<div class="control-div">
+					<p>SESSION LENGTH</p>
+					<div class="control plusminus" id="session-minus">
+						-
+					</div>
+					<div class="control set-control" id="session-value">
+						25
+					</div>
+					<div class="control plusminus" id="session-plus">
+						+
+					</div>
 				</div>
 			</div>
-			<div class="control-div">
-				<p>SESSION LENGTH</p>
-				<div class="control plusminus" id="session-minus">
-					-
-				</div>
-				<div class="control set-control" id="session-value">
-					25
-				</div>
-				<div class="control plusminus" id="session-plus">
-					+
+
+			<div class="clock-div">
+				<div class="background-div"></div>
+				<div class="clock-circle"></div>
+				<div class="clock-border-1"></div>
+				<div class="fill-div"></div>
+				<div class="fill-cover"></div>
+				<div class="data-div">
+					<div class="timerType">
+						Session
+					</div>
+					<div class="timer">
+						25:00
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="clock-div">
-			<div class="background-div"></div>
-			<div class="clock-circle"></div>
-			<div class="clock-border-1"></div>
 			<div class="clock-border-2"></div>
-			<div class="fill-div"></div>
-			<div class="fill-cover"></div>
-			<div class="data-div">
-				<div class="timerType">
-					Session
-				</div>
-				<div class="timer">
-					25:00
-				</div>
-			</div>
-		</div>
 
+		</div>
 
 		<!-- jQuery from CDN.  (jQuery is required for Bootstrap.) -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>

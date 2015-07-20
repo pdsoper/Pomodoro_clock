@@ -5,6 +5,11 @@ body {
     color: white;
 }
 
+.container {
+    width: 500px;
+    margin: auto;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 5em;
@@ -87,12 +92,13 @@ h1 {
 .clock-border-2 {
     width: 320px;
     height: 320px;
-    border: 60px solid #333;
+    border: 62px solid #333;
     border-radius: 320px;
     background-color: transparent;
     position: relative;
     margin: auto;
-    top: 7px;
+    top: -615px;
+    left: 0px;
     z-index: 5;
 }
 
