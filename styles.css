@@ -14,6 +14,8 @@ h1 {
 
 .settings-div {
     position: relative;
+    margin: auto;
+    width: 440px;
     left: 0px;
     top: 0px;
     z-index: 4;
@@ -52,7 +54,7 @@ h1 {
 
 .clock-div {
     margin: auto;
-    width: 620px;
+    width: 440px;
     background-color: #333;
     padding: 0;
 }
@@ -60,7 +62,7 @@ h1 {
 .clock-circle {
     width: 300px;
     height: 300px;
-    border: 160px solid #333;
+    border: 70px solid #333;
     border-radius: 320px;
     background-color: transparent;
     position: absolute;
@@ -71,7 +73,7 @@ h1 {
 .clock-border-1 {
     width: 310px;
     height: 310px;
-    border: 155px solid green;
+    border: 65px solid green;
     border-radius: 320px;
     background-color: transparent;
     position: absolute;
@@ -82,7 +84,7 @@ h1 {
 .clock-border-2 {
     width: 320px;
     height: 320px;
-    border: 150px solid yellow;
+    border: 60px solid #333;
     border-radius: 320px;
     background-color: transparent;
     position: absolute;
@@ -94,18 +96,18 @@ h1 {
     width: 310px;
     height: 310px;
     position: relative;
-    top: 276px; /* start 476 end 166 */
-    left: 155px;
-    background-color: blue;
+    top: 387px;  /* start 387 end 75 */
+    left: 65px;
+    background-color: green;
     z-index: 0;
 }
 
 .fill-cover {
-    width: 620px;
+    width: 440px;
     height: 320px;
     position: absolute;
-    top: 710px;
-    background-color: purple;
+    top: 620px;
+    background-color: #333;
     z-index: 2;
 }
 
@@ -123,14 +125,22 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
-    width: 620px;
+    width: 310px;
     height: 310px;
     margin: auto;
-    position: absolute;
-    top: 400px;
+    position: relative;
+    top: -235px;
     z-index: 1;
 }
 
 .data-div:hover {
     cursor: pointer;
+}
+
+.timerType {
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+.timer {
 }
