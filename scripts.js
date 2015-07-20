@@ -27,8 +27,8 @@ Reset the fill and change the fill color when tranitioning from session to break
     var duration = 0;
     var remaining = 0;
 
-    var fillStart = -1874;
-    var fillEnd = -2185;
+    var fillStart = 476;
+    var fillEnd = 166;
     var newTop = 0;
     var oldTop = 0;
 

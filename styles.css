@@ -50,58 +50,63 @@ h1 {
     cursor: pointer;
 }
 
-.background-div {
-    width: 400px;
-    height: 400px;
-    background-color: #333;
+.clock-div {
     margin: auto;
-    z-index: -1;
+    width: 620px;
+    background-color: #333;
+    padding: 0;
 }
 
 .clock-circle {
     width: 300px;
     height: 300px;
-    border: 150px solid #333;
-    border-radius: 300px;
+    border: 160px solid #333;
+    border-radius: 320px;
     background-color: transparent;
-    position: relative;
-    top: -500px;
-    margin: auto;
-    z-index: 1;
+    position: absolute;
+    top: 250px;
+    z-index: 3;
 }
 
 .clock-border-1 {
     width: 310px;
     height: 310px;
-    border: 150px solid green;
-    border-radius: 310px;
+    border: 155px solid green;
+    border-radius: 320px;
     background-color: transparent;
-    position: relative;
-    top: -1105px;
-    margin: auto;
-    z-index: 2;
+    position: absolute;
+    top: 250px;
+    z-index: 4;
 }
 
 .clock-border-2 {
     width: 320px;
     height: 320px;
-    border: 150px solid #333;
+    border: 150px solid yellow;
     border-radius: 320px;
     background-color: transparent;
-    position: relative;
-    top: -1720px;
-    margin: auto;
-    z-index: 3;
+    position: absolute;
+    top: 250px;
+    z-index: 5;
 }
 
 .fill-div {
-    width: 500px;
-    height: 400px;
-    background-color: blue;
+    width: 310px;
+    height: 310px;
     position: relative;
+    top: 276px; /* start 476 end 166 */
+    left: 155px;
+    background-color: blue;
     z-index: 0;
-    top: -1874px;  /* start = -1874, end = -2185 */
-    margin: auto;
+}
+
+.fill-cover {
+    width: 620px;
+    height: 320px;
+    position: absolute;
+    top: 710px;
+    background-color: purple;
+    z-index: 2;
 }
 
 .session {
@@ -112,28 +117,18 @@ h1 {
     background-color: red;
 }
 
-.fill-cover {
-    width: 500px;
-    height: 400px;
-    background-color: #333;
-    position: relative;
-    z-index: 0;
-    top: -2250px;
-    margin: auto;
-}
-
 .data-div {
     color: white;
     background-color: transparent;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
-    width: 290px;
-    height: 290px;
+    width: 620px;
+    height: 310px;
     margin: auto;
-    position: relative;
-    top: -2970px;
-    z-index: 3;
+    position: absolute;
+    top: 400px;
+    z-index: 1;
 }
 
 .data-div:hover {
