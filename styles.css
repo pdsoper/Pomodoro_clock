@@ -57,6 +57,19 @@ h1 {
     cursor: pointer;
 }
 
+.reset-div {
+    display: inline-block;
+}
+
+.reset {
+    text-align: center;
+    font-size: 1em;
+    color: #eee;
+    position: relative;
+    top: 44px;
+    left: 10px;
+}
+
 .clock-div {
     font-family: 'Open Sans', Helvetica, sans-serif;
     margin: auto;

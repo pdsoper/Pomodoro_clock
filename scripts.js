@@ -30,6 +30,12 @@ $(document).ready(function() {
         $( '.fill-div' ).removeClass('break').addClass('session');
     }
 
+    $( '#reset' ).click(function(event) {
+        running = false;
+        clearInterval(nInterval);
+        initialize();
+    });
+
     $( '#break-minus' ).click(function(event) {
         if (running || breakTime <= 1) return;
         breakTime--;
